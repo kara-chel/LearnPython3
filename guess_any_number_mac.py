@@ -1,10 +1,6 @@
 #!/usr/local/bin/python3
 # -*- coding: utf-8 -*-
 
-# import random
-
-# the_number = random.randint(1, 100)
-
 min_num = 1
 max_num = 1000
 
