@@ -6,9 +6,10 @@
 # the_number = random.randint(1, 100)
 
 min_num = 1
-max_num = 100
+max_num = 1000
 
-print('Загадайте число от 1 до 100, а я попробую его угадать.')
+print('Загадайте число от ', min_num, ' до ', max_num,
+      'а я попробую его угадать.')
 num = 0
 count = 0
 while (num < min_num or num > max_num or count == 0):
