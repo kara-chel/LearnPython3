@@ -16,9 +16,12 @@ while (num < min_num or num > max_num or count == 0):
     num = int(input('Введите число: '))
 
 count = 0
+# max_num += 1
 while True:
     count += 1
+    print(count)
     avr_num = int(min_num + (max_num - min_num) / 2)
+    # avr_num = int(round(min_num + (max_num - min_num) / 2))
     print ('Среднее число между ', min_num, ' и ', max_num, ' = ', avr_num)
     if avr_num == num:
         print('Вы загадали число: ', avr_num)
