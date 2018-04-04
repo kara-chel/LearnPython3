@@ -27,6 +27,8 @@ while True:
         break
     elif avr_num < num:
         min_num = avr_num
+        print('Загаданное число больше чем ', avr_num)
     elif avr_num > num:
         max_num = avr_num
+        print('Загаданное число меньше чем ', avr_num)
 print('Спасибо за игру!')
