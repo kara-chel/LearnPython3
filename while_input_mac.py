@@ -14,4 +14,4 @@ while (num < 1 or num > 100 or count == 0):
     count += 1
     num = int(input('Введите число: '))
 
-print('Вы ввели: ', num)
+print('Вы ввели: ', num, ' с ', count, 'попыток')
