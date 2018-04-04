@@ -29,4 +29,4 @@ while True:
         min_num = avr_num
     elif avr_num > num:
         max_num = avr_num
-# print('Вы ввели: ', num, ' с ', count, 'попыток')
+print('Спасибо за игру!')
