@@ -23,7 +23,7 @@ while True:
     print ('Среднее число между ', min_num, ' и ', max_num, ' = ', avr_num)
     if avr_num == num:
         print('Вы загадали число: ', avr_num)
-        print('Я отгадал с попытки: ', count)
+        print('Я отгадал с ', count, ' попытки.')
         break
     elif avr_num < num:
         min_num = avr_num
